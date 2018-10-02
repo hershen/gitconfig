@@ -1,1 +1,1 @@
-attributesfile = ~/.gitattributes_global
+*.ipynb filter=nbstrip_full
