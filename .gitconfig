@@ -1,0 +1,10 @@
+[user]
+	name = Alon Hershenhorn
+	email = hershen@phas.ubc.ca
+[core]
+	excludesfile = /home/hershen/.gitignore_global
+	editor = nano
+
+[alias]
+    fixstyle = ! git diff --cached --quiet || fixstyle `git diff --cached --name-only`
+    checkstyle = ! git diff --cached --quiet || checkstyle `git diff --cached --name-only`
