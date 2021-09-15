@@ -4,7 +4,7 @@
 
 [core]
 	excludesfile = /home/hershen/.gitignore_global
-	editor = nano
+	editor = vim
   attributesfile = /home/hershen/.gitattributes_global
 
 [alias]
@@ -22,3 +22,5 @@
 
 [cola]
   spellcheck = false
+[commit]
+	verbose = true
